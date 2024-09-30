@@ -1,0 +1,68 @@
+@import url(./reset.css);
+
+:root {
+    --font-texto: sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top,blue,orange,black);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 20%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 16px;
+    border: 3px solid #806008;
+    height: 25%;
+    
+    /*padding: 3vh 3vh;
+    justify-content: center;
+     */
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 3vh 3vh;
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 50vw;*/
+}
+
+.form__paragrafo {
+    width: 100%;
+    margin-top: 15px;
+    font-family: var(--font-texto);
+    font-weight: 600;
+}
+
+.text__imput {
+    width: 95%;
+}
+
+.botoes {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+#outResp {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 12px;
+    font-family: var(--font-texto);
+    font-weight: 600; 
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Login</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <main>
+        <form class="formulario">
+           <p class="form__paragrafo">Usuário
+            <input type="text" class="text__imput" id="inNome" required>
+           </p>
+           <p class="form__paragrafo">Senha
+            <input type="password" class="text__imput" id="inSenha" required>
+           </p>
+
+           <div class="botoes">            
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            </div>
+        </form>
+
+        <h3 id="outResp"></h3>
+
+        <script src="./script.js"></script>
+    </main>
+</body>
+</html>
